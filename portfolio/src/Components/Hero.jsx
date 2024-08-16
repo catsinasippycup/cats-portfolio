@@ -13,7 +13,7 @@ export default function Hero() {
                 <p className='text-4xl mb-5 text-slate-300'>Hey! my name is</p>
                 <h1 className='text-6xl'>James Peou</h1>
                 <p className='mt-10 text-xl'>
-                    Computer Science Graduate at CSUF.
+                    Computer Science Graduate from CSUF.
                 </p>
                 <div className='flex mt-5 space-x-4 cursor-pointer'>
                     <a href="https://www.linkedin.com/in/james-peou-661004184/" target="_blank" rel="noopener noreferrer"
