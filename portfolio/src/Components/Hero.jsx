@@ -13,7 +13,7 @@ export default function Hero() {
                 <p className='text-4xl mb-5 text-slate-300'>Hey! my name is</p>
                 <h1 className='text-6xl'>James Peou</h1>
                 <p className='mt-10 text-xl'>
-                    Currently studying Computer Science at CSUF.
+                    Currently a Computer Science Graduate at CSUF.
                 </p>
                 <div className='flex mt-5 space-x-4 cursor-pointer'>
                     <a href="https://www.linkedin.com/in/james-peou-661004184/" target="_blank" rel="noopener noreferrer"
@@ -35,7 +35,7 @@ export default function Hero() {
             </div>
             <div className={`resume-viewer ${showResume ? 'open' : ''}`} aria-hidden={!showResume}>
                 <iframe
-                    src="https://drive.google.com/file/d/1Gr59btS_HxJmnKIXqoE1qSPXFwEvjQOY/preview"
+                    src="https://drive.google.com/file/d/14sZ-cOgMLUmZo5-Mp9awc9X-5t6PjQ3K/preview"
                     frameborder="0"
                     style={{ width: '100%', height: '100%', border: 'none' }}>
                 </iframe>
