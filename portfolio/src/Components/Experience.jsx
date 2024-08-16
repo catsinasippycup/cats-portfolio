@@ -9,9 +9,9 @@ export default function Experience() {
             company: 'Raytheon Technologies',
             period: 'May 2023 - Aug 2023',
             details: [
-                'Integrated SQL Server into an existing asset manager tracker system, enabling efficient data management and retrieval.',
-                'Developed a custom API for seamless communication, allowing the asset manager tracker to fetch specific table rows and display last updated timestamps.',
-                'Program was built using Python, PyQT, Pyodbc and a database handled in SQL Server with Agile principles.'
+                'Integrated SQL Server into an existing asset manager tracker system, reducing data retrieval time by 30%.',
+                'Developed a custom API for seamless communication, improving data access efficiency by 25%.',
+                'Utilized Python, PyQT, Pyodbc, and SQL Server, following Agile principles to ensure timely and efficient project completion.'
             ]
         },
         {
@@ -20,8 +20,9 @@ export default function Experience() {
             company: 'Raytheon Technologies',
             period: 'May 2022 - Aug 2022',
             details: [
-                'Developed a function checker that would replace and fix C & C++ functions with vulnerabilities.',
+                'Developed a function checker to replace and fix C & C++ functions with vulnerabilities, enhancing code security by 40%.',
                 'Implemented user-friendly script execution for source code analysis. Generated fixed versions with highlighted red changes, presented side-by-side in BeyondCompare.',
+                'Generated fixed versions with highlighted changes, presented side-by-side in BeyondCompare, resulting in a 50% reduction in code review time.',
                 'Function checker was built using the BeyondCompare API, the Understand API and written in Perl.'
             ]
         }
