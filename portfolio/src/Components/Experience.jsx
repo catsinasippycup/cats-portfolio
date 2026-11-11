@@ -8,16 +8,17 @@ export default function Experience() {
             company: 'Taco Bell',
             period: 'Sep 2024 - Present',
             details: [
-                'Provide Tier 1 and Tier 2 support in a 24/7 operation serving 7,000+ restaurant locations. Triage and resolve 120+ weekly incidents and service requests in ServiceNow while meeting SLA commitments.',
+                'Provide Tier 1 & Tier 2 support in a 24/7 operation serving 7,000+ restaurant locations across the US, UK and Canada. Triage and resolve 120+ weekly incidents and service requests in ServiceNow while meeting SLA commitments.',
                 'Troubleshoot Windows, Linux, and application issues with command-line diagnostics, Datadog, Docker logs, MongoDB queries, and custom scripts.',
-                'Coordinate with engineering, networking, and vendor teams during outages and document troubleshooting steps and known fixes in ServiceNow.'
+                'Coordinate with field technicians, networking, and esclation teams during outages and document troubleshooting steps and known fixes in ServiceNow.',
+                'Troubleshoot LAN, endpoint and infrastructure incidents and escalated complex networking issues.'
             ]
         },
         {
             id: 1,
             title: 'Software Engineer Intern',
-            company: 'Raytheon Technologies',
-            period: 'Summers 2022 and 2023',
+            company: 'RTX Corp',
+            period: 'May 2022 - Aug 2023',
             details: [
                 'Integrated SQL Server into an asset-management application using Python, PyQt, and PyODBC, reducing data retrieval time by 30%. Built a REST API for retrieving and updating records, improving data access efficiency by 25%.',
                 'Built a Perl tool using SciTools Understand and Beyond Compare to flag and replace vulnerable C and C++ functions, increasing analysis speed by 20%.',

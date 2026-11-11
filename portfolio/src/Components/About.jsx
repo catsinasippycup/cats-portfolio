@@ -8,8 +8,8 @@ export default function About() {
                     <div className='flex flex-col items-start m-10'>  {/* Keep items aligned to start */}
                         <h1 className='text-4xl text-white mb-2'>About me</h1>
                         <p className='text-xl text-white'>
-                            I've been on the computer since 2006 playing Runescape.<br/>
-                            From that day on, computers never cease to amaze me.
+                            Computer fan since 2006 from that day on,<br/>
+                            technology never cease to amaze me.
                         </p>
                     </div>
                 </div>

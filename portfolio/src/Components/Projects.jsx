@@ -15,6 +15,13 @@ export default function Projects() {
             description: 'Two player Tetris like game built from Python using the Pygame and Numpy library.',
             link: 'https://github.com/lulzsun/Coop-Tetris'
         },
+                {
+            id: 3,
+            title: 'Enterprise Network Lab',
+            description: 'Designed and configured a multi-site LAN with enterprise routing, switching, network services, and security protocols.',
+            link: ''
+        },
+        
     ];
 
     return (
