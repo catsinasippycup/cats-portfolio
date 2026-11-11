@@ -1,37 +1,35 @@
 import React from 'react';
 
 export default function Experience() {
-    // Example data for experience entries
     const experiences = [
         {
-            id: 1,
-            title: 'Software Engineer Intern ',
-            company: 'Raytheon Technologies',
-            period: 'May 2023 - Aug 2023',
+            id: 3,
+            title: 'IT Support Specialist',
+            company: 'Taco Bell',
+            period: 'Sep 2024 - Present',
             details: [
-                'Integrated SQL Server into an existing asset manager tracker system, reducing data retrieval time by 30%.',
-                'Developed a custom API for seamless communication, improving data access efficiency by 25%.',
-                'Utilized Python, PyQT, Pyodbc, and SQL Server, following Agile principles to ensure timely and efficient project completion.'
+                'Provide Tier 1 and Tier 2 support in a 24/7 operation serving 7,000+ restaurant locations. Triage and resolve 120+ weekly incidents and service requests in ServiceNow while meeting SLA commitments.',
+                'Troubleshoot Windows, Linux, and application issues with command-line diagnostics, Datadog, Docker logs, MongoDB queries, and custom scripts.',
+                'Coordinate with engineering, networking, and vendor teams during outages and document troubleshooting steps and known fixes in ServiceNow.'
             ]
         },
         {
-            id: 2,
+            id: 1,
             title: 'Software Engineer Intern',
             company: 'Raytheon Technologies',
-            period: 'May 2022 - Aug 2022',
+            period: 'Summers 2022 and 2023',
             details: [
-                'Developed a function checker to replace and fix C & C++ functions with vulnerabilities, enhancing code security by 40%.',
-                'Implemented user-friendly script execution for source code analysis. Generated fixed versions with highlighted red changes, presented side-by-side in BeyondCompare.',
-                'Generated fixed versions with highlighted changes, presented side-by-side in BeyondCompare, resulting in a 50% reduction in code review time.',
-                'Function checker was built using the BeyondCompare API, the Understand API and written in Perl.'
+                'Integrated SQL Server into an asset-management application using Python, PyQt, and PyODBC, reducing data retrieval time by 30%. Built a REST API for retrieving and updating records, improving data access efficiency by 25%.',
+                'Built a Perl tool using SciTools Understand and Beyond Compare to flag and replace vulnerable C and C++ functions, increasing analysis speed by 20%.',
+                'Generated side-by-side comparisons that highlighted code changes, reducing manual review time by 50%.'
             ]
         }
     ];
 
     return (
         <>
-            <div id ="experience" className='flex items-center justify-center h-screen'> {/* Centering the container */}
-                <div className='bg-slate-700 p-20 max-w-4xl rounded-lg shadow-lg'>
+            <div id ="experience" className='flex justify-center px-4 py-12'>
+                <div className='bg-slate-700 w-full max-w-4xl p-6 sm:p-12 rounded-lg shadow-lg'>
                     <h1 className='text-4xl text-white text-center mb-10'>Experience</h1>
                     {experiences.map((exp) => (
                         <div key={exp.id} className="mt-5">
